@@ -9,6 +9,15 @@ LuaJIT FFI bindings for DevIL
 brew install devil
 ```
 
+## Update
+
+### Get `#defines`
+
+```bash
+cat /usr/local/includes/IL/il.h /usr/local/includes/IL/ilu.h /usr/local/includes/IL/ilut.h > ilut.h
+grep "#define" ilut.h > ilut.defines.h
+```
+
 ## License
 
 The MIT License
