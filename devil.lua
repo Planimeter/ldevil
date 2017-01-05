@@ -5,7 +5,7 @@
 --============================================================================--
 
 local ffi = require( "ffi" )
-io.input( "lib/ilut.h" )
+io.input( "ilut.h" )
 ffi.cdef( io.read( "*all" ) )
 
 local ILUT = ffi.load( "ILUT" )
