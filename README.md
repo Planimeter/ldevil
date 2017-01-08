@@ -2,24 +2,19 @@
 LuaJIT FFI bindings for DevIL
 
 ## Install
-
 ### macOS
-
 ```bash
 brew install devil
 ```
 
 ## Update
-
 ### Get `#defines`
-
 ```bash
 cat /usr/local/includes/IL/il.h /usr/local/includes/IL/ilu.h /usr/local/includes/IL/ilut.h > ilut.h
 grep "#define" ilut.h > ilut.defines.h
 ```
 
 ## License
-
 The MIT License
 
 Copyright (c) 2017 Planimeter. http://planimeter.org
